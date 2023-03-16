@@ -1,7 +1,11 @@
 body{
     max-width: 80%;
     margin: auto;
-    border: solid black 2px;
+    border: solid #800000;
+    border-width: 3.5px;
+    border-radius: 4px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .titleform{
@@ -50,9 +54,10 @@ input{
 }
 
 #imglogo{
-    max-width: 80%;
+    max-width: 70%;
     display: block;
     margin: auto;
+    margin-top: 7px;
 }
 
 .footer{
@@ -69,4 +74,22 @@ input{
     max-width: 70%;
     display: block;
     margin: auto;
+}
+
+select#top {
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
+
+button#generate-btn {
+    margin-top: 10px;
+    padding: 6px;
+    color: white;
+    background-color:  #b30000;
+    border-radius: 4px;
+    margin-inline-start: 18px;
+    margin-inline-end: 2px;
+    min-inline-size: min-content;
+    border: none;
 }

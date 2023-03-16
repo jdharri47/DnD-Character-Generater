@@ -26,11 +26,22 @@
       <form id= "formC" method="get" action="">
         <fieldset>
           <label class="top">Character Name <input type="text" name="chrctrName" required></label>
-          <label class="top">Class and Level <input type="text" name="classlevel" required></label>
-          <label class="top">Background <input type="text" name="bckgnd" required></label>
-          <label class="top">Race <input type="text" name="raceName" placeholder= "" required></label>
+          <label class="top">Class and Level</label>
+		  <select id="top">
+			<option value=""></option>
+           <option value="monk">Monk</option></select>
+          <label class="top">Background</label>
+		  <select id="top">
+			<option value=""></option>
+           <option value="criminal">Criminal</option></select>
+          <label class="top">Race</label>
+		  <select id="top">
+			<option value=""></option>
+           <option value="half-elf">Half-Elf</option></select>
           <label class="top">Alignment <input type="text" name="algnField" placeholder= "" required></label>
           <label class="top">Experience Points <input type="text" name="expPoints" placeholder= "" required></label>
+		  <div id="character-info"></div>
+			<button id="generate-btn">Generate Character</button>
         </fieldset>
       </form>    
     </div>
@@ -45,7 +56,7 @@
 			<picture class="subitem himage">
 				<img id="noImage" src="../final_project/images/noimage.jpg" alt= "No Image logo">
 			</picture>		
-
+			
     </div>
 
     <hr>
