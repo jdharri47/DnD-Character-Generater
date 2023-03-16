@@ -1,0 +1,77 @@
+[
+    {
+        "name": "Barbarian",
+        "features": {
+            "hit-points": "12",
+            "proficiencies":{
+                "saving-throws": ["strength", "constitution"],
+                "skills": ["animal-handling", "athletics", "intimidation", "nature", "perception", "survival"]
+            },
+            "rage": "You can activate rage as a bonus action on your turn. You gain the following benefits: advantage on strength checks and strength saving throws, you gain a bonus to attack damage when making a melee attack, and resistance to bludgeoning, piercing, and slashing dmg."
+        }
+    },
+    
+    {
+        "name": "Bard",
+        "features": {
+            "hit-points": "8",
+            "proficiencies":{
+                "saving-throws": ["dexterity", "charisma"],
+                "skills": [""]
+            },
+            "spell-casting": "",
+            "bardic-inspiration": "As a bonus action you can choose one creature other than yourself within 60 feet of you who can hear you. Once within the next 10 minutes the creature can roll an d6 and add the number rolled to an ability check, attack roll, or saving throw it makes. Once the die is rolled it is lost. A creature can only have one Bardic Inspiration die at a time. Uses are equal to your charisma modifier"
+        }
+    },
+
+    {
+        "name": "Cleric",
+        "features": {
+            "hit-points": "8",
+            "proficiencies":{
+                "saving-throws": ["wisdom", "charisma"],
+                "skills": ["history", "insight", "medicine", "persuasion", "religion"]
+            },
+            "spell-casting": "",
+            "divine-domain": ""
+        }
+    },
+
+    {
+        "name": "Druid",
+        "features": {
+            "hit-points": "8",
+            "proficiencies":{
+                "saving-throws": ["intelligence", "wisdom"],
+                "skills": ["arcana", "animal-handling", "insight", "medicine", "nature", "perception", "religion", "survival"]
+            },
+            "spell-casting": ""
+        }
+    },
+
+    {
+        "name": "fighter",
+        "features": {
+            "hit-points": "10",
+            "proficiencies":{
+                "saving-throws": ["strength", "constitution"],
+                "skills": ["acrobatics","animal-handling", "athletics", "history", "insight", "intimidation", "perception", "survival"]
+            },
+            "fighting-style": "",
+            "second-wind": "On your turn you can use a bonus action to regain hit points up to 1 d10 plus your fighter level. Once used you must complete a short or long rest."
+        }
+    },
+
+    {
+        "name": "Monk",
+        "features": {
+            "hit-points": "8",
+            "proficiencies":{
+                "saving-throws": ["strength", "dexterity" ],
+                "skills": ["acrobatics", "athletics", "history", "insight", "religion", "stealth"]
+            },
+            "unarmoured-defense": "while wearing no armor and not wielding a shield, your AC equals 10 plus you Dex modifier plus your wisdom modifier",
+            "martial-arts": ""
+        }
+    }
+]
