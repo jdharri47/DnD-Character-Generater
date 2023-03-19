@@ -1,0 +1,66 @@
+[
+    {
+        "name": "Dwarf",
+        "traits": {
+            "ability-score-improvement": "constitution +2",
+            "size": "medium",
+            "speed": 25,
+            "dark-vision": "within 60ft you can see in dim light as if it were bright light and darkness as if it were dim",
+            "dwarven-resilience": "advantage on saving throws against being poisoned and resistant against poison damage",
+            "dwarven-combat-training": "Proficent with the battleaxe, handaxe, light hammer, and war hammer",
+            "tool-proficiencies": ["smith's tools", "brewer's supplies", "mason's tools"],
+            "stonecunning": "double proficiency bonus on history checks related to the history of stonework, considered proficient on these checks",
+            "languages": ["Common", "Dwarvish"]
+        }
+    },
+    
+    {
+        "name": "Elf",
+        "traits": {
+            "ability-score-improvement": "dexterity +2",
+            "size":"medium",
+            "speed": 30,
+            "dark-vision": "within 60ft you can see in dim light as if it were bright light and darkness as if it were dim",
+            "keen-senses": "Proficent with perception",
+            "fey-ancestry": "You have advantage on saving throws against being charmed, and magic can't put you to sleep",
+            "trance": "Your long rest is 4 hours instead of 8",
+            "languages": ["Common", "Elvish"]
+        }
+    },
+    
+    {
+        "name": "Halfling",
+        "traits": {
+            "ability-score-improvement":"dexterity +2",
+            "size": "small",
+            "speed": 25,
+            "lucky": "When you roll a 1 on an attack roll, saving throw, or ability check you can reroll the dice and must use the new roll",
+            "brave": "advantage on saving throws against being frightened",
+            "halfling-nimbleness": "You can move through the space of a creature that is a size larger than you",
+            "languages": ["Common", "Halfling"]
+        }
+    },
+
+    {
+        "name": "Human",
+        "traits": {
+            "ability-score-improvement": "All ability scores +1",
+            "size": "medium",
+            "speed": 30,
+            "languages": ["Common", "One language of your choice"]
+        }
+    },
+    
+    {
+        "name": "Half-Elf",
+        "traits": {
+            "ability-score-improvement": ["charisma +2", "two other ability scores +1"],
+            "size": "medium",
+            "speed": 30,
+            "dark-vision":"within 60ft you can see in dim light as if it were bright light and darkness as if it were dim",
+            "fey-ancestry":"You have advantage on saving throws against being charmed, and magic can't put you to sleep",
+            "skill-versatillity": "You gain proficiency in two skills of your choice",
+            "languages": ["Common", "Elvish", "One language of your choice"]
+        }
+    }
+]
