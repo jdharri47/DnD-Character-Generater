@@ -1,11 +1,76 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>My Cool Project</title>
-    <link media="screen" rel="stylesheet" href="css/main.css" />
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="src/index.js"></script>
-  </body>
+<html lang="en-US">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+		<title>Dungeons & Dragons</title>
+		<meta name="description" content="Dungeons & Dragons - Final Project">
+		<link rel="stylesheet" href="../DnD-Character-Generater/final_project/styles/base.css">
+		<link href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@100&display=swap" rel="stylesheet">
+	</head>
+
+	<body>
+		<div id="header">
+			<picture class="subitem himage">
+				<img id="imglogo" src="../DnD-Character-Generater/final_project/images/logo.jpg" alt="Dungeons & Dragons logo">
+			</picture>
+		</div>
+		<div class="titleform">
+			<h1 id="titleJoinForm">Character Generator</h1>
+		</div>
+		<div class="chrctrForm">
+			<form id="formC" method="get" action="">
+				<fieldset>
+					<label class="top">Character Name <input type="text" name="chrctrName" required></label>
+					<label class="top">Class and Level</label>
+					<select id="class-select">
+						<option value=""></option>
+						<option value="monk">Monk</option>
+					</select>
+					<label class="top">Background</label>
+					<select id="background-select">
+						<option value=""></option>
+					</select>
+					<label class="top">Race</label>
+					<select id="race-select">
+						<option value=""></option>
+						<option value="half-elf">Half-Elf</option>
+					</select>
+					<label class="top">Alignment <input type="text" name="algnField" placeholder="" required></label>
+					<label class="top">Experience Points <input type="text" name="expPoints" placeholder="" required></label>
+					<div id="character-info"></div>
+					<button id="generate-btn">Generate Character</button>
+				</fieldset>
+			</form>
+		</div>
+
+		<div class="containerPage">
+			<picture class="subitem himage">
+				<img id="noImage" src="../DnD-Character-Generater/final_project/images/noimage.jpg" alt= "No Image logo">
+			</picture>      
+			<picture class="subitem himage">
+				<img id="noImage" src="../DnD-Character-Generater/final_project/images/noimage.jpg" alt= "No Image logo">
+			</picture>		
+			<picture class="subitem himage">
+				<img id="noImage" src="../DnD-Character-Generater/final_project/images/noimage.jpg" alt= "No Image logo">
+			</picture>		
+			
+    </div>
+
+    <hr>
+    <div class="footer">
+        <h3>Dungeons & Dragons - Final Project</h3>
+        <div class="developerinfo">
+        &copy; Team2 | <a href="http://www.byui.edu/online/" target="_blank">BYU-I Online Learning</a>
+        </div>
+    </div>
+
+    <script type="module" src="../DnD-Character-Generater/src/script.js"></script>
+	</body>
 </html>
+
+
+
+
+
